@@ -9,10 +9,10 @@ const index = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <Courses />
+      {/* <Hero /> */}
+      {/* <Courses /> */}
       <About />
-      <Testimonial />
+      {/* <Testimonial /> */}
     </div>
   );
 };
