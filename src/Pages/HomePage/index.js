@@ -9,7 +9,7 @@ const index = () => {
   return (
     <div>
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
       {/* <Courses /> */}
       <About />
       {/* <Testimonial /> */}
