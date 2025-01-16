@@ -9,7 +9,7 @@ const index = () => {
       <div className='flex justify-evenly'>
         {/* course 1*/}
         <div class="border-4 w-96 p-6 rounded-lg hover:border-purple-300">
-          <img className="h-28 w-26 rounded-full border-4 inline" alt="full-stack" src={Image}/>
+          <img className="h-28 w-26 rounded-full border-4 inline" alt="full-stack" src={Image} />
           <p className='text-xl font-bold pt-4 pb-2'>Full Stack Developer</p>
           <p className='text-lg'>Looking to explore a career as a Full stack Developer? This is the right place to start! Master the basic concepts required to
             become a Full Stack Developer with this free bootcamp. Learn the basics and move on towards a successful career!
@@ -23,7 +23,7 @@ const index = () => {
 
         {/*course 2*/}
         <div class="border-4 w-96 p-6 rounded-lg hover:border-purple-300">
-          <img className='h-28 w-26 rounded-full border-4 inline' alt="Data science" src={Datascience}/>
+          <img className='h-28 w-26 rounded-full border-4 inline' alt="Data science" src={Datascience} />
           <p className='text-xl font-bold pt-4 pb-2'>Data Scientist</p>
           <p className='text-lg'>Unlock the power of data! Elevate your expertise with our Mastering Data Analytics Course. Gain proficiency in Python, SQL, Excel,
             and Power BI for data analysis, visualization, and reporting. Explore hands-on real-world projects and much more.
@@ -33,12 +33,12 @@ const index = () => {
               <p>Explore</p>
             </div>
           </div>
-          
+
         </div>
 
         {/*course 3*/}
         <div class="border-4 w-96 p-6 rounded-lg hover:border-purple-300">
-          <img className='h-28 w-26 rounded-full border-4 inline' alt="DSA" src={DataStructure}/>
+          <img className='h-28 w-26 rounded-full border-4 inline' alt="DSA" src={DataStructure} />
           <p className='text-xl font-bold pt-4 pb-2'>DSA for Interview Preparation</p>
           <p className='text-lg'>This course covers the essential information that every serious programmer needs to know about algorithms and data structures,
             with emphasis on applications and scientific performance analysis of Java implementations.
