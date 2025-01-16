@@ -1,4 +1,10 @@
 import React from "react";
+import ceo from './ceo.jpg'
+import founder from './founder.jpg'
+import member from './member.jpg'
+import innovation from './innovation.gif'
+import excellence from './excellence.gif'
+import integrity from './integrity.gif'
 
 const index = () => {
   return (
@@ -8,17 +14,17 @@ const index = () => {
         <div className="flex flex-col gap-10 justify-start items-start py-10 w-full ">
           <p className="text-4xl font-semibold px-32">Our Team</p>
           <div className="w-full flex gap-10 flex-wrap items-center justify-evenly">
-            <div className="flex items-center justify-center w-[200px] h-[200px] bg-slate-100 rounded-full">
-              <img src="" alt="" />
+            <div className="flex items-center justify-center w-[200px] h-[200px] bg-slate-100 rounded-full overflow-hidden">
+              <img src={founder} alt="founder" />
             </div>
-            <div className="flex items-center justify-center w-[200px] h-[200px] bg-slate-100 rounded-full">
-              <img src="" alt="" />
+            <div className="flex items-center justify-center w-[200px] h-[200px] bg-slate-100 rounded-full overflow-hidden">
+              <img src={ceo} alt="ceo"/>
             </div>
-            <div className="flex items-center justify-center w-[200px] h-[200px] bg-slate-100 rounded-full">
-              <img src="" alt="" />
+            <div className="flex items-center justify-center w-[200px] h-[200px] bg-slate-100 rounded-full overflow-hidden">
+              <img src={member} alt="member" />
             </div>
           </div>
-        </div>{" "}
+        </div>
         <div className="flex gap-10 justify-evenly items-center py-16 w-full bg-purple-50 rounded-2xl  ">
           <p className="text-4xl font-semibold w-[28%] content-start">
             Our Vision and
@@ -48,21 +54,21 @@ const index = () => {
           </div>{" "}
           <div className="flex flex-col gap-8">
             <div className="flex items-center justify-center w-[150px] h-[150px] bg-purple-200 rounded-full">
-              <img src="" alt="" />
+              <img src={innovation} alt="innovation" />
             </div>
-            <p className="text-xl">Key Names</p>
+            <p className="text-xl">Innovation</p>
           </div>{" "}
           <div className="flex flex-col gap-8">
             <div className="flex items-center justify-center w-[150px] h-[150px] bg-purple-200 rounded-full">
-              <img src="" alt="" />
+              <img src={excellence} alt="excellence" />
             </div>
-            <p className="text-xl">Key Names</p>
+            <p className="text-xl">Excellence</p>
           </div>{" "}
           <div className="flex flex-col gap-8">
-            <div className="flex items-center justify-center w-[150px] h-[150px] bg-purple-200 rounded-full">
-              <img src="" alt="" />
+            <div className="flex items-center justify-center w-[150px] h-[150px]  rounded-full overflow-hidden">
+              <img src={integrity} alt="integrity" />
             </div>
-            <p className="text-xl">Key Names</p>
+            <p className="text-xl">Integrity</p>
           </div>
         </div>
       </div>
