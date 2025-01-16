@@ -2,6 +2,7 @@ import React from "react";
 import ceo from './ceo.jpg'
 import founder from './founder.jpg'
 import member from './member.jpg'
+import education from "./education_16675750.gif"
 import innovation from './innovation.gif'
 import excellence from './excellence.gif'
 import integrity from './integrity.gif'
@@ -48,9 +49,9 @@ const index = () => {
         <div className="flex gap-10 flex-wrap items-center justify-evenly h-full w-full">
           <div className="flex flex-col gap-8">
             <div className="flex items-center justify-center w-[150px] h-[150px] bg-purple-200 rounded-full">
-              <img src="" alt="" />
+              <img src={education} alt="" />
             </div>
-            <p className="text-xl">Key Names</p>
+            <p className="text-xl">Education</p>
           </div>{" "}
           <div className="flex flex-col gap-8">
             <div className="flex items-center justify-center w-[150px] h-[150px] bg-purple-200 rounded-full">
