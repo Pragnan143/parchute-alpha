@@ -12,7 +12,7 @@ const index = () => {
       <Hero />
       <Courses />
       <About />
-      <Testimonial />
+      <Testimonial  />
     </div>
   );
 };

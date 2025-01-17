@@ -1,37 +1,51 @@
-import React from "react";
+import {React, useState} from "react";
 import { FcGoogle } from "react-icons/fc";
+import SignImage from "./Login-Image.jpg"
 
-const index = () => {
+const Index = () => {
+
+const [passwordVisible, setPasswordVisible] = useState(false);
+
+    const togglePasswordVisibility = () => {
+        setPasswordVisible(!passwordVisible);
+    };
   return (
     <div class="flex  justify-center items-center h-screen ">
-      <div class="flex flex-col items-center bg-purple-200 rounded-[10px] border-2 border-purple-400">
-        <form class="flex flex-col gap-10 bg-purple-100 p-10 border-2 w-[600px] rounded-md ">
+      <div class="flex flex-col items-center  h-screen justify-center">
+        <form class="flex flex-col gap-10 p-10  w-[500px]  ">
           <h1 className="font-serif text-[30px]">Register</h1>
           <div className="flex flex-col">
             <input
               required
-              className="border-2 p-2 rounded-lg"
+              className="border-b-2 p-2 outline-none border-purple-600"
               type="text"
-              placeholder="Enter your UserName"
+              placeholder="UserName"
             />
           </div>
           <div className="flex flex-col">
             <input
               required
-              className="border-2 p-2 rounded-lg"
+              className="border-b-2 p-2 outline-none border-purple-600"
               type="email"
-              placeholder="Enter your Email"
+              placeholder="Email"
             />
           </div>
 
-          <div className="flex flex-col">
-            <input
-              required
-              className="border-2 p-2 rounded-lg "
-              type="password"
-              placeholder="Enter your Password"
-            />
-          </div>
+          <div className="flex flex-col relative">
+                        <input
+                            required
+                            type={passwordVisible ? 'text' : 'password'}
+                            className="border-b-2 p-3 outline-none border-purple-600"
+                            placeholder="Password"
+                        />
+                        <button
+                            type="button"
+                            onClick={togglePasswordVisibility}
+                            className="absolute right-2 top-2 bg-none border-none cursor-pointer"
+                        >
+                            {passwordVisible ? '👁️' : '🙈'}
+                        </button>
+                    </div>
 
           <div className="flex flex-col">
             <div
@@ -57,8 +71,14 @@ const index = () => {
           </div>
         </form>
       </div>
+      <div>
+                <img className="h-screen" src={SignImage} />
+            </div>
     </div>
   );
 };
 
-export default index;
+export default Index;
+
+
+
