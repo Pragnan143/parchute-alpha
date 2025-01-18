@@ -77,4 +77,3 @@ const [passwordVisible, setPasswordVisible] = useState(false);
 };
 export default Index;
 
-export default index;
