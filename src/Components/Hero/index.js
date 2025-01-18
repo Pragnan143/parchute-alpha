@@ -13,12 +13,12 @@ const index = () => {
                     </p>
 
                     <div class="flex flex-row justify-center gap-[50px]">
-                        <div class=" border-2 text-purple-600 border-purple-600 bg-purple-200 p-2 rounded-md text-[20px] h-auto w-auto  hover:bg-purple-600 hover:text-white cursor-pointer ">
-                            <p>Get Started</p>
+                        <div class=" border-2 text-purple-600 border-purple-600 bg-purple-200 p-2 rounded-md text-[18px] h-auto w-auto  hover:bg-purple-600 hover:text-white cursor-pointer ">
+                            <p>Explore Courses</p>
                         </div>
 
-                        <div class="border-2 p-2 text-white border-purple-600 hover:bg-purple-200 rounded-md text-[20px] h-auto w-auto bg-purple-600 hover:text-black ">
-                            <p>Explore</p>
+                        <div class="border-2 p-2 text-white border-purple-600 hover:bg-purple-200 rounded-md text-[18px] h-auto w-auto bg-purple-600 hover:text-black cursor-pointer">
+                            <p>Book Demo</p>
                         </div>
                     </div>
                 </div>

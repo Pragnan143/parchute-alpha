@@ -1,3 +1,4 @@
+
 import {React, useState} from "react";
 import { FcGoogle } from "react-icons/fc";
 import SignImage from "./Login-Image.jpg"
@@ -17,6 +18,7 @@ const [passwordVisible, setPasswordVisible] = useState(false);
           <div className="flex flex-col">
             <input
               required
+
               className="border-b-2 p-2 outline-none border-purple-600"
               type="text"
               placeholder="UserName"
@@ -25,6 +27,7 @@ const [passwordVisible, setPasswordVisible] = useState(false);
           <div className="flex flex-col">
             <input
               required
+
               className="border-b-2 p-2 outline-none border-purple-600"
               type="email"
               placeholder="Email"
@@ -46,6 +49,7 @@ const [passwordVisible, setPasswordVisible] = useState(false);
                             {passwordVisible ? '👁️' : '🙈'}
                         </button>
                     </div>
+
 
           <div className="flex flex-col">
             <div
@@ -74,11 +78,9 @@ const [passwordVisible, setPasswordVisible] = useState(false);
       <div>
                 <img className="h-screen" src={SignImage} />
             </div>
+
     </div>
   );
 };
-
 export default Index;
-
-
 
