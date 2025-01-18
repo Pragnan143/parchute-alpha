@@ -4,6 +4,7 @@ import Courses from "../../Components/Courses";
 import Navbar from "../../Components/Navbar";
 import About from "../../Components/About";
 import Testimonial from "../../Components/Testimonial";
+import Footer from "../../Components/Footer";
 
 const index = () => {
   return (
@@ -13,6 +14,7 @@ const index = () => {
       <Courses />
       <About />
       <Testimonial />
+      <Footer/>
     </div>
   );
 };
