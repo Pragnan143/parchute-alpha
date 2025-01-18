@@ -13,6 +13,7 @@ const index = () => {
       <Courses />
       <About />
       <Testimonial />
+
     </div>
   );
 };
