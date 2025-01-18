@@ -1,11 +1,13 @@
 import "./App.css";
 import HomePage from "./Pages/HomePage";
-import AuthPage from "./Pages/AuthPage";
+import Signup from "./Components/SignUp";
+import Login from "./Components/Login";
 function App() {
   return (
     <div className="App">
       {/* <HomePage /> */}
-      <AuthPage />
+      <Signup />
+      <Login />
     </div>
   );
 }
