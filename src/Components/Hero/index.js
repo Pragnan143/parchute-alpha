@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "./hero.jpg";
+import Image from "./hero.png";
 const index = () => {
     return (
         <section class="bg-purple-100 h-[70vh] flex flex-col justify-between w-screen">
@@ -23,7 +23,7 @@ const index = () => {
                     </div>
                 </div>
 
-                <div class="flex flex-col justify-center w-[450px] h-[450px] p-4">
+                <div class="flex flex-col justify-center w-[450px] h-[450px] p-4 transition-all	">
                     <img
                         className="h-[100%] w-[100%] flex flex-col rounded-md"
                         src={Image}
@@ -36,3 +36,4 @@ const index = () => {
 };
 
 export default index;
+
