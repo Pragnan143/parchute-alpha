@@ -2,7 +2,6 @@ import { React, useState } from 'react';
 import { FcGoogle } from "react-icons/fc";
 import LoginImage from './Login-Image.jpg';
 
-
 const Index = () => {
 
     const [passwordVisible, setPasswordVisible] = useState(false);
@@ -72,6 +71,7 @@ const Index = () => {
 };
 
 export default Index;
+
 
 
 
