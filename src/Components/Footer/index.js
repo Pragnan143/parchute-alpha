@@ -19,7 +19,7 @@ const index = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-center w-[60%] px-10 h-full gap-5">
+      <div className="flex justify-between items-center   w-[60%] px-10 h-full gap-5">
         <div className="h-[70%] w-[400px] flex flex-col items-start justify-between text-white">
           <p className="font-semibold text-xl text-white ">Company</p>{" "}
           <a href="#">
@@ -45,11 +45,13 @@ const index = () => {
           <p>Terms& Conditions</p>
           <p>Return Policy</p>
         </div>
-        <div className="h-[70%] w-[400px] flex flex-col items-start justify-between text-white">
+        <div className="h-[70%] w-[400px] flex flex-col items-start justify-evenly text-white">
           <p className="font-semibold text-xl text-white">Social</p>
-          <p>Instagram</p>
-          <p>Facebook</p>
-          <p>Twitter</p>
+          <div className="flex justify-between items-center w-[300px]">
+            <p>Instagram</p>
+            <p>Facebook</p>
+            <p>Twitter</p>
+          </div>
         </div>
       </div>
     </section>
