@@ -1,4 +1,10 @@
 import React from "react";
+import {
+  FaLinkedinIn,
+  FaInstagram,
+  FaTwitter,
+  FaFacebook,
+} from "react-icons/fa6";
 
 const index = () => {
   return (
@@ -19,7 +25,7 @@ const index = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-center   w-[60%] px-10 h-full gap-5">
+      <div className="flex justify-between items-start   w-[70%] px-10 py-10 h-full gap-5">
         <div className="h-[70%] w-[400px] flex flex-col items-start justify-between text-white">
           <p className="font-semibold text-xl text-white ">Company</p>{" "}
           <a href="#">
@@ -45,12 +51,13 @@ const index = () => {
           <p>Terms& Conditions</p>
           <p>Return Policy</p>
         </div>
-        <div className="h-[70%] w-[400px] flex flex-col items-start justify-evenly text-white">
+        <div className="h-[30%] w-[400px] flex flex-col items-start justify-between text-white">
           <p className="font-semibold text-xl text-white">Social</p>
-          <div className="flex justify-between items-center w-[300px]">
-            <p>Instagram</p>
-            <p>Facebook</p>
-            <p>Twitter</p>
+          <div className="flex justify-between items-center w-[300px] text-2xl">
+            <FaInstagram className="hover:scale-150 cursor-pointer	" />{" "}
+            <FaFacebook className="hover:scale-150 cursor-pointer" />{" "}
+            <FaTwitter className="hover:scale-150 cursor-pointer" />
+            <FaLinkedinIn className="hover:scale-150 cursor-pointer" />
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ import Footer from "../../Components/Footer";
 
 const index = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
       <Courses />
