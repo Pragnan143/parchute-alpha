@@ -14,7 +14,7 @@ const index = () => {
       <Courses />
       <About />
       <Testimonial />
-      <Footer/>
+      <coursepage />
 
     </div>
   );
