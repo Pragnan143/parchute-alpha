@@ -1,7 +1,9 @@
-import React from "react";
-import { useState } from "react";
+
+import React,{useState} from "react";
+
 import { FcGoogle } from "react-icons/fc";
 import Pursuit from "./pursuit future.jpg"
+
 
 const Index = () => {
 
