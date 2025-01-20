@@ -6,6 +6,8 @@ import {
   FaFacebook,
 } from "react-icons/fa6";
 
+import {Link} from 'react-router-dom'
+
 const index = () => {
   return (
     <section className="h-[50vh] w-full p-10 bg-purple-600 flex justify-between items-center gap-20 text-white">
@@ -28,22 +30,18 @@ const index = () => {
       <div className="flex justify-between items-start   w-[70%] px-10 py-10 h-full gap-5">
         <div className="h-[70%] w-[400px] flex flex-col items-start justify-between text-white">
           <p className="font-semibold text-xl text-white ">Company</p>{" "}
-          <a href="#">
-            {" "}
+          <Link to="/" target="_parent">
             <p>Home</p>
-          </a>
-          <a href="#">
-            {" "}
+          </Link>
+          <Link to="/courses" target="_parent">
             <p>Courses</p>
-          </a>{" "}
-          <a href="#">
-            {" "}
+          </Link>
+          <Link to="/aboutus">
             <p>About Us</p>
-          </a>
-          <a href="#">
-            {" "}
+          </Link>
+          <Link to="/testimonials">
             <p>Testimonials</p>
-          </a>
+          </Link>
         </div>
         <div className="h-[70%] w-[400px] flex flex-col items-start justify-between text-white ">
           <p className="font-semibold text-xl text-white">Useful Links</p>

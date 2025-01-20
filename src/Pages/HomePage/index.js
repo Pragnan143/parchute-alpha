@@ -5,6 +5,8 @@ import Navbar from "../../Components/Navbar";
 import About from "../../Components/About";
 import Testimonial from "../../Components/Testimonial";
 import Footer from "../../Components/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import StudentInsights from "../../Components/StudentInsights";
 const index = () => {
   return (
@@ -15,7 +17,7 @@ const index = () => {
       <About />
       <StudentInsights />
       <Testimonial />
-      <Footer />
+      <Footer/>
     </div>
   );
 };
