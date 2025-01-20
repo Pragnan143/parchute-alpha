@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const index = () => {
   return (
@@ -48,6 +49,7 @@ const index = () => {
         <div className="h-[70%] w-[400px] flex flex-col items-start justify-evenly text-white">
           <p className="font-semibold text-xl text-white">Social</p>
           <div className="flex justify-between items-center w-[300px]">
+          <FontAwesomeIcon icon="fa-brands fa-instagram" />
             <p>Instagram</p>
             <p>Facebook</p>
             <p>Twitter</p>
