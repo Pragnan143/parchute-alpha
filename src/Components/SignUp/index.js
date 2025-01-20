@@ -1,6 +1,7 @@
-import React from "react";
+import React,{useState} from "react";
 import { FcGoogle } from "react-icons/fc";
 import SignImage from "./Login-Image.jpg"
+
 
 const Index = () => {
 

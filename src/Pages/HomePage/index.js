@@ -5,6 +5,7 @@ import Navbar from "../../Components/Navbar";
 import About from "../../Components/About";
 import Testimonial from "../../Components/Testimonial";
 import Footer from "../../Components/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const index = () => {
   return (
@@ -14,7 +15,7 @@ const index = () => {
       <Courses />
       <About />
       <Testimonial />
-      <coursepage />
+      <Footer/>
 
     </div>
   );

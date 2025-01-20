@@ -4,13 +4,13 @@ const Index = (props) => {
     const courses=props.courses
 console.log(courses)
     return (
-        <section className="py-10">
-            <p className="text-2xl font-bold text-center mb-8 font-bold text-4xl text-purple-500">All Courses</p>
+        <section className="py-10 ">
+            <p className="text-center mb-8 font-bold text-4xl text-purple-500">All Courses</p>
             <div className="flex flex-wrap h-full w-screen auto justify-evenly items-center gap-6"> {/* grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 */}
                 {courses.map((course) => (
                     <div
                         key={course.id}
-                        className="w-[450px] bg-white shadow-lg rounded-lg overflow-hidden "
+                        className="w-[450px] h-[420px] bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105"
                     >
                         <div className="w-full h-48">
                             <img

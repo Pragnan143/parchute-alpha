@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../../Components/Navbar/index'
 import CourseCard from '../../Components/CourseCard/index'
 import fullstack from './Assets/Fullstack.webp';
 import datascience from './Assets/datascience.webp'
@@ -22,7 +23,7 @@ const index = () => {
             id:1,
             image:fullstack,
             courseName:'Full Stack',
-            courseContent:'Pursuit Future presents for the first time ever: Online Classroom Program on Full Stack Development. You will learn to build dynamic, scalable web applications using MongoDB, Express.js, React, and Node.js - in Online classes and in an interactive manner. So join the classes today to become a MERN Stack Developer!',
+            courseContent:'Pursuit Future presents for the first time ever: Online Classroom Program on Full Stack Development. You will learn to build dynamic, scalable web applications using MongoDB, Express.js, React, and Node.js - in Online classes and in an interactive manner.',
             courseButton:'Enroll'
         },
 
@@ -54,7 +55,7 @@ const index = () => {
             id:5,
             image:dsa,
             courseName:'Data Structures and Algorithms - Self Paced',
-            courseContent:'Most popular course on DSA trusted by over 1,00,000+ students! Built with years of experience by industry experts the course gives you a complete package of video lectures, practice problems, quizzes, discussion forums, and contests. Enrol now to learn and master DSA skills!',
+            courseContent:'Most popular course on DSA trusted by over 1,00,000+ students! Built with years of experience by industry experts the course gives you a complete package of video lectures, practice problems, quizzes, discussion forums, and contests. Enroll Today, to grab the seats.',
             courseButton:'Enroll'
         },
 
@@ -142,6 +143,7 @@ const index = () => {
 
   return (
     <div>
+        <Navbar/>
         <CourseCard courses={courses}/>
     </div>
   )
