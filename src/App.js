@@ -8,7 +8,6 @@ function App() {
 
     <div className="App overflow-x-hidden">
        <HomePage />
-       <CoursePage  /> 
 
     </div>
   );
