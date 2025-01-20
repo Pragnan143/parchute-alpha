@@ -7,6 +7,7 @@ import Testimonial from "../../Components/Testimonial";
 import Footer from "../../Components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import StudentInsights from "../../Components/StudentInsights";
 const index = () => {
   return (
     <div className="overflow-x-hidden">
@@ -14,9 +15,9 @@ const index = () => {
       <Hero />
       <Courses />
       <About />
+      <StudentInsights />
       <Testimonial />
       <Footer/>
-
     </div>
   );
 };
