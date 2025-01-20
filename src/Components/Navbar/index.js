@@ -2,6 +2,7 @@ import React from "react";
 import {NavLink} from 'react-router-dom'
 const index = () => {
   return (
+
     <div className="h-[60px] w-full bg-purple-500 flex gap-8 justify-between items-center p-6 ">
       <div className="font-serif text-[20px]">Pursuit Technologies</div>
       <div className="w-[50%] flex items-center justify-between">
@@ -17,6 +18,7 @@ const index = () => {
           </div>
           <div className="h-10 w-28 bg-white  flex items-center justify-center rounded-md">
             <NavLink to="/auth/signup">Sign Up</NavLink>
+
           </div>
         </div>
       </div>

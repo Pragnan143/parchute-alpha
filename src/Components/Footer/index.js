@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   FaLinkedinIn,
   FaInstagram,
@@ -7,6 +8,7 @@ import {
 } from "react-icons/fa6";
 
 import {Link} from 'react-router-dom'
+
 
 const index = () => {
   return (
@@ -51,6 +53,7 @@ const index = () => {
         </div>
         <div className="h-[30%] w-[400px] flex flex-col items-start justify-between text-white">
           <p className="font-semibold text-xl text-white">Social</p>
+
           <div className="flex justify-between items-center w-[300px] text-2xl">
             <FaInstagram className="hover:scale-150 cursor-pointer	" />{" "}
             <FaFacebook className="hover:scale-150 cursor-pointer" />{" "}

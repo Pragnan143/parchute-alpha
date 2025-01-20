@@ -1,6 +1,6 @@
 import { React, useState } from 'react';
 import { FcGoogle } from "react-icons/fc";
-import LoginImage from './Login-Image.jpg';
+import Pursuit from "./pursuit future.jpg"
 
 const Index = () => {
 
@@ -64,7 +64,7 @@ const Index = () => {
                 </form>
             </div>
             <div>
-                <img className="h-screen" src={LoginImage} />
+                <img className="h-screen w-full" src={Pursuit} />
             </div>
         </div>
     );

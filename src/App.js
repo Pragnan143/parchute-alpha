@@ -5,9 +5,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from '../src/Components/Login'
 import SignUp from '../src/Components/SignUp'
 
-
 function App() {
   return (
+
 
     <div className="App overflow-x-hidden">
        <BrowserRouter>
@@ -20,8 +20,6 @@ function App() {
           </Route>
         </Routes>
        </BrowserRouter>
-
-
     </div>
   );
 }
