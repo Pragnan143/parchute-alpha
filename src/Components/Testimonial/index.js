@@ -60,6 +60,7 @@ return (
         {
           testimonial.map((testimonial)=>(<div key={testimonial.id} className="w-[80%] h-[80%] justify-center items-center gap-8 flex p-9">
           <div className="flex-col p-4 border-purple-500 border-2 gap-5 rounded-[10px]">
+
             <div className="flex flex-col gap-5">
               <div className="flex justify-center items-center gap-5">
                 <div className="w-[120px] h-[100px] float-left rounded-[50%] overflow-hidden">

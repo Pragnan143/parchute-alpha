@@ -2,6 +2,7 @@ import React from 'react'
 import Image from './course-img.jpg'
 import Datascience from './datascience.jpg'
 import DataStructure from './ds.jpg'
+import { Link } from 'react-router-dom'
 const index = () => {
   return (
     <section class="h-[90vh] flex flex-col p-20 gap-20">
@@ -16,7 +17,7 @@ const index = () => {
           </p>
           <div className='w-full flex justify-center pt-3'>
             <div className='w-36 h-8 flex justify-center items-center cursor-pointer rounded-lg bg-purple-200 hover:border-2 hover:border-purple-300 hover:bg-white'>
-              <p>Explore</p>
+              <Link to="/courses" target="_parent">Explore</Link>
             </div>
           </div>
         </div>
@@ -30,7 +31,7 @@ const index = () => {
           </p>
           <div className='w-full flex justify-center pt-3'>
             <div className='w-36 h-8 flex justify-center items-center cursor-pointer rounded-lg bg-purple-200 hover:border-2 hover:border-purple-300 hover:bg-white'>
-              <p>Explore</p>
+              <Link to="/courses" target="_parent">Explore</Link>
             </div>
           </div>
 
@@ -45,12 +46,11 @@ const index = () => {
           </p>
           <div className='w-full flex justify-center pt-3'>
             <div className='w-36 h-8 flex justify-center items-center cursor-pointer rounded-lg bg-purple-200 hover:border-2 hover:border-purple-300 hover:bg-white'>
-              <p>Explore</p>
+              <Link to="/courses" target='_parent'>Explore</Link>
             </div>
           </div>
         </div>
       </div>
-
     </section>
   )
 }

@@ -1,5 +1,6 @@
 import React from "react";
-import Image from "./hero.jpg";
+import Image from "./hero.png";
+import {Link} from 'react-router-dom'
 const index = () => {
     return (
         <section class="bg-purple-100 h-[70vh] flex flex-col justify-between w-screen">
@@ -13,17 +14,17 @@ const index = () => {
                     </p>
 
                     <div class="flex flex-row justify-center gap-[50px]">
-                        <div class=" border-2 text-purple-600 border-purple-600 bg-purple-200 p-2 rounded-md text-[20px] h-auto w-auto  hover:bg-purple-600 hover:text-white cursor-pointer ">
-                            <p>Get Started</p>
+                        <div class=" border-2 text-purple-600 border-purple-600 bg-purple-200 p-2 rounded-md text-[18px] h-auto w-auto  hover:bg-purple-600 hover:text-white cursor-pointer ">
+                            <Link to='/courses' target="_parent">Explore Courses</Link>
                         </div>
 
-                        <div class="border-2 p-2 text-white border-purple-600 hover:bg-purple-200 rounded-md text-[20px] h-auto w-auto bg-purple-600 hover:text-black ">
-                            <p>Explore</p>
+                        <div class="border-2 p-2 text-white border-purple-600 hover:bg-purple-200 rounded-md text-[18px] h-auto w-auto bg-purple-600 hover:text-black cursor-pointer">
+                            <p>Book Demo</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex flex-col justify-center w-[450px] h-[450px] p-4">
+                <div class="flex flex-col justify-center w-[450px] h-[450px] p-4 transition-all	">
                     <img
                         className="h-[100%] w-[100%] flex flex-col rounded-md"
                         src={Image}
@@ -36,3 +37,4 @@ const index = () => {
 };
 
 export default index;
+
